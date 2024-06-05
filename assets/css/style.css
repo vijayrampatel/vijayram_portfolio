@@ -143,11 +143,6 @@
     color: #fff; /* Change percentage text color to white */
 }
 
-.skill .title-wrapper data {
-  color: var(--light-gray);
-  font-size: var(--fs-7);
-  font-weight: var(--fw-300);
-}
 
 
 .progress-bar {
