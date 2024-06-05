@@ -111,7 +111,6 @@
 
 }
 
-
 .expertise-container {
     background-color: #1c1c1c; /* Darker background for the container */
     padding: 20px;
@@ -146,7 +145,7 @@
 }
 
 .progress {
-    background-color: #8e44ad;
+    background-color: var(--text-gradient-yellow);
     height: 100%;
 }
 
