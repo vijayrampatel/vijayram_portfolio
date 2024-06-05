@@ -218,8 +218,8 @@
       window.open('https://drive.google.com/file/d/1fCiIxs7r8C-a3Pt0IoT_Qibs3g3rWNr_/view?usp=sharing', '_blank');
       
       // Find the "About" section and navigate to it
-      const aboutSection = document.querySelector("[data-page='about']");
-      const navLinks = document.querySelectorAll("[data-nav-link]");
+      const pages = document.querySelector("[data-page='about']");
+      const navigationLinks = document.querySelectorAll("[data-nav-link]");
 
       for (let i = 0; i < navigationLinks.length; i++) {
         navigationLinks[i].addEventListener("click", function () {
