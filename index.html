@@ -218,25 +218,6 @@
       window.open('https://drive.google.com/file/d/1fCiIxs7r8C-a3Pt0IoT_Qibs3g3rWNr_/view?usp=sharing', '_blank');
       window.location.href = 'https://vijayrampatel.github.io/vijayram_portfolio/';
       // Find the "About" section and navigate to it
-      const pages = document.querySelector("[data-page='about']");
-      const navigationLinks = document.querySelectorAll("[data-nav-link]");
-
-      for (let i = 0; i < navigationLinks.length; i++) {
-        navigationLinks[i].addEventListener("click", function () {
-
-          for (let i = 0; i < pages.length; i++) {
-            if (this.innerHTML.toLowerCase() === pages[i].dataset.page) {
-              pages[i].classList.add("active");
-              navigationLinks[i].classList.add("active");
-              window.scrollTo(0, 0);
-            } else {
-              pages[i].classList.remove("active");
-              navigationLinks[i].classList.remove("active");
-            }
-          }
-
-        });
-      }
     }
   </script>
 
