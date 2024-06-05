@@ -112,7 +112,7 @@
 }
 
 .expertise-container {
-    background-color: #1c1c1c; /* Darker background for the container */
+    background-color: #000000; /* Darker background for the container */
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -136,18 +136,6 @@
     margin-bottom: 5px;
 }
 
-/* .progress-bar {
-    background-color: #e0e0e0;
-    border-radius: 5px;
-    overflow: hidden;
-    height: 10px;
-    margin-bottom: 5px;
-} */
-
-/* .progress {
-    background-color: var(--text-gradient-yellow);
-    height: 100%;
-} */
 
 .percentage {
     text-align: right;
@@ -155,6 +143,11 @@
     color: #fff; /* Change percentage text color to white */
 }
 
+.skill .title-wrapper data {
+  color: var(--light-gray);
+  font-size: var(--fs-7);
+  font-weight: var(--fw-300);
+}
 
 
 .progress-bar {
