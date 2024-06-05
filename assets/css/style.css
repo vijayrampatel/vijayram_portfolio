@@ -149,6 +149,10 @@
 }
 
 
+.expertise {
+  margin-bottom: 0; /* Remove bottom margin of the expertise container */
+}
+
 
 .progress-bar {
   background: var(--jet);
