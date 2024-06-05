@@ -210,6 +210,36 @@
 
       </nav>
 
+      <script>
+        // Add your existing JavaScript code here
+    
+        function openResumeAndNavigate() {
+          // Open the resume link in a new tab
+          window.open('https://drive.google.com/file/d/1fCiIxs7r8C-a3Pt0IoT_Qibs3g3rWNr_/view?usp=sharing', '_blank');
+          
+          // Find the "About" section and navigate to it
+          const aboutSection = document.querySelector("[data-page='about']");
+          const navLinks = document.querySelectorAll("[data-nav-link]");
+    
+          for (let i = 0; i < navLinks.length; i++) {
+            if (navLinks[i].innerHTML.toLowerCase() === "about") {
+              navLinks[i].classList.add("active");
+              window.scrollTo(0, 0);
+            } else {
+              navLinks[i].classList.remove("active");
+            }
+          }
+    
+          for (let i = 0; i < pages.length; i++) {
+            if (pages[i].dataset.page === 'about') {
+              pages[i].classList.add("active");
+            } else {
+              pages[i].classList.remove("active");
+            }
+          }
+        }
+      </script>
+
 
 
 
