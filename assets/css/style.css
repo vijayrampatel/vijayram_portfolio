@@ -118,6 +118,7 @@
     box-shadow: 0 0 10px rgba(30, 30, 31, 0.25);
     width: 100%; /* Ensure it spreads across the whole section */
     max-width: 800px;
+    border: none;
 }
 
 .expertise {
