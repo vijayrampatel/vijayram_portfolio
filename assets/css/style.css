@@ -541,6 +541,34 @@ main {
 .navbar-link.active { color: var(--orange-yellow-crayola); }
 
 
+/* Ensure the resume link is styled like other navigation buttons */
+.navbar-item a.navbar-link {
+  color: inherit; /* Inherit color from parent to remove blue color */
+  text-decoration: none; /* Remove underline */
+}
+
+.navbar-item a.navbar-link:hover {
+  color: #000; /* Add hover color if needed */
+}
+
+/* Ensure the text color of the Resume link matches others */
+.navbar-link.teal-text {
+  color: inherit; /* Inherit the color to avoid blue text */
+}
+
+/* Remove default link styling when focused */
+.navbar-link:focus, .navbar-link:visited {
+  color: inherit; /* Inherit color to match other buttons */
+  outline: none; /* Remove default outline */
+}
+
+/* Optional: Add styles for active state if needed */
+.navbar-link.active {
+  color: #000; /* Add active state color if needed */
+}
+
+
+
 
 
 
